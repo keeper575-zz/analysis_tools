@@ -1,0 +1,10 @@
+{application, analysis_tools,
+    [
+        {description, "A basic app to get analysis on stock data"},
+        {vsn, "1.0.0"},
+        {applications, [kernel, stdlib]},
+        {registered, []},
+        {mod, {analysis_tools, []}},
+        {modules, []}
+    ]
+}.
