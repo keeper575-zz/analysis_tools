@@ -4,7 +4,8 @@
         {vsn, "1.0.0"},
         {applications, [kernel, stdlib]},
         {registered, []},
-        {mod, {analysis_tools, []}},
+        {mod, {moving_average_app, []}},
+        {links, []},
         {modules, []}
     ]
 }.
